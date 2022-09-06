@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JShop - Your Own Shopping Website</title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="logo">
+            <img src="./public/Logo2.jpg" alt="Company's Logo">
+        </header>
+
+        <nav class="navbar">
+            <div class="navbar-content">
+                <a href="#">Home</a>
+                <a href="#">Contact Us</a>
+                <a href="#product-header">Add Products</a>
+            </div>
+        </nav>
+
+        <section id="slider">
+            <div class="slider-div">
+                <div class="slider-company">
+                    <img src="./public/philips/logo.jpg" alt="philips" class="product-logo">
+                </div>
+                <div class="slider-content">
+                    <img src="./public/product1.jpg" alt="">
+                    <img src="./public/product2.jfif" alt="">
+                    <img src="./public/product3.webp" alt="">
+                </div>
+            </div>
+
+            <div class="slider-div">
+                <div class="slider-company">
+                    <img src="./public/samsung/logo.webp" alt="philips" class="product-logo">
+                </div>
+                <div class="slider-content">
+                    <img src="./public/product2.jfif" alt="">
+                    <img src="./public/product1.jpg" alt="">
+                    <img src="./public/product3.webp" alt="">
+                </div>
+            </div>
+
+            <div class="slider-div">
+                <div class="slider-company">
+                    <img src="./public/sony/logo.webp" alt="philips" class="product-logo">
+                </div>
+                <div class="slider-content">
+                    
+                    <img src="./public/product3.webp" alt="">
+                    <img src="./public/product1.jpg" alt="">
+                    <img src="./public/product2.jfif" alt="">
+                </div>
+            </div>
+        </section>
+        <section id="scrollButtons">
+            <!-- <button class="btn" id="left"><- Left</button> -->
+            <div class="indicator">
+                <div class="circle active"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+            <!-- <button class="btn" id="right">Right -></button> -->
+        </section>
+        <section id="form">
+            <center>
+            <div class="product-form">
+                <h3 id="product-header">Add Product</h3>
+                <form id="formMain">
+                <label for="p-id">Id</label>
+                <input type="number" id="p-id" required><br>
+
+                <label for="price">Price</label>
+                <input type="number" id="price" required><br>
+
+                <label for="stock">Stock</label>
+                <input type="number" id="stock" required><br>
+
+                <button class="btn" id="add-product">Add Product</button>
+                </form>
+            </div>
+            </center>
+        </section>
+
+        <h2 style="font-size:2rem">Products</h2>
+        <section id="products">
+        
+            
+        </section>
+
+        <section id="footer">
+            <center>
+                <p>Copyright 2022 By Jayesh Waghmare</p>
+            </center>
+        </section>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
