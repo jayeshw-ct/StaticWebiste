@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
+    background-color: black;
 }
 
 :root {
@@ -20,7 +21,7 @@ img {
 
 .navbar-content {
     display: flex;
-    background-color: var(--primary);
+    background-color: var(--secondary);
     justify-content: flex-end;
 }
 .navbar-content a {
